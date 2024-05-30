@@ -72,7 +72,7 @@ print(pandas_data["temp"].max())  # The max value
 
 # Get Data in Columns
 print(pandas_data["condition"])  # header is case-sensitive
-print(pandas_data.condition)  # same result, using those heading into attributes
+print(pandas_data.condition)  # same result, using those heading as attributes
 
 # Get Data in Row
 print(pandas_data[pandas_data.day == "Monday"])
